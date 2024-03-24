@@ -57,6 +57,8 @@ npm run format:write
 ```
 ###  How do you modularize a large React app? What is the difference between Angular and React?
 Usually large react app divided in the following structure 
+
+```bash
 src/
 ├── components/
 ├── pages/
@@ -66,6 +68,7 @@ src/
 ├── assets/
 ├── constants/
 └── ...
+```
 and also apply the DRY rule make it more resuable component. Also use a component-based architecture with a clear folder structure, distinguish between presentational and container components, centralize state management, divide services and utilities, use modular styling, apply code splitting, handle routing, make sure thorough testing is done, document code, and perform regular reviews and refactoring for scalability and maintainability are some ways to modularize a large React application.
 
 ## Difference between Angular and React
